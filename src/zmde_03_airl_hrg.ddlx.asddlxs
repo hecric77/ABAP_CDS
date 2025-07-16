@@ -1,0 +1,11 @@
+@Metadata.layer: #INDUSTRY
+annotate view ZB_16_AIRL_M_HRG with
+  parameters
+    @EndUserText.label: 'Parameter Airline Code'
+    p_AirlineCode
+{
+  @UI.dataPoint.title: 'MDE - Airline Code'
+  @UI.dataPoint.description: 'MDE Industry - description'
+  Airline;
+
+}

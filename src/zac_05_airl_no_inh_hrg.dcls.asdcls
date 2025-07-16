@@ -1,0 +1,7 @@
+@EndUserText.label: 'Access Control - Airline No Inhibiting'
+@MappingRole: true
+define role ZAC_05_AIRL_NO_INH_HRG {
+    grant select on ZB_14_AIRL_HRG
+           where AirlineLocalCurrency = 'USD';
+                        
+}

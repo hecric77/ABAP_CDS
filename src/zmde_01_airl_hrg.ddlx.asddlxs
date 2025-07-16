@@ -1,0 +1,9 @@
+@Metadata.layer: #INDUSTRY
+annotate view zb_15_airl_m_hrg
+    with 
+{
+   @UI.dataPoint.title: 'MDE - Airline code'
+    @UI.dataPoint.description: 'MDE Industry - description'
+    Airline;
+    
+}

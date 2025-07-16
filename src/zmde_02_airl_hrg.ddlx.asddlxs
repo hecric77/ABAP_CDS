@@ -1,0 +1,15 @@
+@Metadata.layer: #CUSTOMER
+annotate view zb_15_airl_m_hrg with
+{
+  @UI.dataPoint.title: 'MDE Customer - Airline code'
+  @UI.dataPoint.description: 'MDE Customer - description'
+  @UI.dataPoint.longDescription: 'MDE Customer - long description'
+  Airline;
+
+}
+
+// 1 - Customer
+// 2 - Partner
+// 3 - Industry
+// 4 - Localization
+// 5 - Core
